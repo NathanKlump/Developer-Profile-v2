@@ -1,13 +1,11 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { Tech } from '../components';
 import profilePic from "../assets/profilepicture.jpeg";
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -24,11 +22,6 @@ const ServiceCard = ({ index, title, icon }) => (
         }}
         className="bg-white rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
-        <img
-          src={icon}
-          alt="web-development"
-          className="w-16 h-16 object-contain"
-        />
 
         <h3 className="text-black text-[20px] font-bold text-center">
           {title}
