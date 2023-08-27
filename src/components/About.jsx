@@ -45,11 +45,12 @@ const About = () => {
             
             <motion.div variants={textVariant()}>
               <p className={styles.sectionSubText}>Nathaniel Klump</p>
-              <div className="pt-4 flex">
+              <p className="text-sm">nathanieljklump@gmail.com • (810) 280-5977</p>
+              <div className="pt-8">
                 <h2 className={styles.sectionHeadText}>Overview.</h2>
               </div>
             </motion.div>
-
+  
             <div className="pt-12">
               Software Developer with a strong foundation in online service platforms. 
               Proficient in operations automation across environments. Experienced in 

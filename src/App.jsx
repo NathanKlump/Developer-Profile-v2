@@ -11,6 +11,7 @@ const App = () => {
         <Works />
         <Feedbacks/>
         <Tech/>
+        <p className="pb-4 text-center">nathanieljklump@gmail.com • (810) 280-5977</p>
       </div>
     </BrowserRouter>
   );
