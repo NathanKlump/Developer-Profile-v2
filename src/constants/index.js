@@ -145,12 +145,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "google cloud platform",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
     image: "https://media.licdn.com/dms/image/D562DAQG-FlwCzLFGOw/profile-treasury-image-shrink_1920_1920/0/1691073019770?e=1693594800&v=beta&t=3-SV-IE9UU8mDF3EQedilRtQ4SfMEMFcSuLo-2PRVRs",
     source_code_link: "https://github.com/NathanKlump/background-music",
+  },
+  {
+    name: "Herald",
+    description:
+      "The server monitors users' voice channel activities, sending personalized messages when users join or leave. It is deployed to Google Cloud Run through creating a Docker image, pushing it to Google Container Registry, and deployed using the gcloud CLI.",
+    tags: [
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gcloud platform",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://i.ibb.co/nMgShvd/Screenshot-2023-08-27-211830.png",
+    source_code_link: "https://github.com/NathanKlump/Herald/",
   },
 ];
 
