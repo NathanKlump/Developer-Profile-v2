@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -33,6 +33,21 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 1260); 
+    };
+    
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <>
       <motion.p
@@ -59,6 +74,7 @@ const About = () => {
             </div>
           </div>
           <div className="z-10 flex justify-center">
+            {isLargeScreen && 
             <div
               className="relative z-0 ml-20 before:absolute before:-top-5 before:-left-5
               before:w-full before:rounded-lg before:max-w-[400px] md:before:max-w-[600px] before:h-full 
@@ -70,6 +86,7 @@ const About = () => {
                 src={profilePic}
               />
             </div>
+            }
           </div>
         </div>
       </motion.p>
