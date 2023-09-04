@@ -149,7 +149,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://media.licdn.com/dms/image/D562DAQG-FlwCzLFGOw/profile-treasury-image-shrink_1920_1920/0/1691073019770?e=1693594800&v=beta&t=3-SV-IE9UU8mDF3EQedilRtQ4SfMEMFcSuLo-2PRVRs",
+    image: "https://i.ibb.co/5TLq4hf/1691073019770.jpg",
     source_code_link: "https://github.com/NathanKlump/background-music",
   },
   {
