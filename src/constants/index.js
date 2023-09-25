@@ -76,7 +76,19 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Associate Research Engineer",
+    title: "Student Developer Program",
+    company_name: "University Technology Services",
+    icon: "https://media.licdn.com/dms/image/C4D0BAQFoG4SVQXfMXA/company-logo_200_200/0/1519855930252?e=1701302400&v=beta&t=y79Qv5gdTSbsATb96bVJhIARjuqKoaCQxNkHama6Kq4",
+    iconBg: "#383E56",
+    date: "Feb 2021 - May 2023",
+    points: [
+      "Worked on a small team to manage, operate, and support Oakland University's online service platform.",
+      "Reduced time to push features to production by automating changes in the Test and Production environments.",
+      "Actively participate and contribute to the new feature project initiatives.",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
     company_name: "Oasis Advanced Engineering",
     icon: "https://media.licdn.com/dms/image/C4E0BAQHoyGKJCyIWAA/company-logo_200_200/0/1530880609629?e=1701302400&v=beta&t=gYOqgMOBPSIu0MCPHK2rmABQJUfH6tAIEEUR9ul_1Cs",
     iconBg: "#383E56",
@@ -89,16 +101,15 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Enterprise Applications UTS",
+    title: "Junior Application Developer",
+    company_name: "University Technology Services",
     icon: "https://media.licdn.com/dms/image/C4D0BAQFoG4SVQXfMXA/company-logo_200_200/0/1519855930252?e=1701302400&v=beta&t=y79Qv5gdTSbsATb96bVJhIARjuqKoaCQxNkHama6Kq4",
     iconBg: "#E6DEDD",
-    date: "Mar 2021 - Present",
+    date: "Aug 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Worked on a small team to manage, operate, and support Oakland University's online service platform.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Reduced time to push features to production by automating changes in the Test and Production environments.",
+      "Implemented Vue.js and React.js to create interactive and user-friendly web applications.",
+      "Played a key role in troubleshooting and resolving issues in the Test and Production environments, minimizing downtime and improving system reliability.",
+      "Training new hires in front-end standards.",
     ],
   },
 ];
@@ -172,6 +183,27 @@ const projects = [
     ],
     image: "https://i.ibb.co/nMgShvd/Screenshot-2023-08-27-211830.png",
     source_code_link: "https://github.com/NathanKlump/Herald/",
+  },
+  {
+    name: "ServerNanny",
+    description:
+      "The server monitors the health of the other servers in my personal web. This solution takes advantage of the Google Auth system and Firebase database, providing a solid foundation for storing and managing data effectively.",
+    tags: [
+      {
+        name: "NoSQL database",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cron Job",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Auth",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://i.ibb.co/Yy4kDNW/Screenshot-2023-09-25-145205.png",
+    source_code_link: "https://github.com/NathanKlump/ServerNanny",
   },
 ];
 
