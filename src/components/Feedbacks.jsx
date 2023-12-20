@@ -13,25 +13,25 @@ const Feedbacks = () => {
     {
       key: 1,
       content: (
-        <Card imagen="https://i.ibb.co/0GzRH9r/Nameeta-Rec-1.png" />
+        <Card imagen="https://raw.githubusercontent.com/NathanKlump/images/main/developer-portfolio-v2/letters%20of%20rec/Nameeta-Rec-1.png" />
       )
     },
     {
       key: 2,
       content: (
-        <Card imagen="https://i.ibb.co/J3BDYDQ/Joel-Rec-1.png" />
+        <Card imagen="https://raw.githubusercontent.com/NathanKlump/images/main/developer-portfolio-v2/letters%20of%20rec/Joel-Rec-1.png" />
       )
     },
     {
       key: 3,
       content: (
-        <Card imagen="https://i.ibb.co/BfRWGKZ/Chris-Rec-1.png" />
+        <Card imagen="https://raw.githubusercontent.com/NathanKlump/images/main/developer-portfolio-v2/letters%20of%20rec/Chris-Rec-1.png" />
       )
     },
     {
       key: 4,
       content: (
-        <Card imagen="https://i.ibb.co/p385bJW/Dave-Rec-1.png" />
+        <Card imagen="https://raw.githubusercontent.com/NathanKlump/images/main/developer-portfolio-v2/letters%20of%20rec/Dave-Rec-1.png" />
       )
     },
   ];

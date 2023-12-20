@@ -78,7 +78,7 @@ const experiences = [
   {
     title: "Student Developer Program",
     company_name: "University Technology Services",
-    icon: "https://media.licdn.com/dms/image/C4D0BAQFoG4SVQXfMXA/company-logo_200_200/0/1519855930252?e=1701302400&v=beta&t=y79Qv5gdTSbsATb96bVJhIARjuqKoaCQxNkHama6Kq4",
+    icon: "https://raw.githubusercontent.com/NathanKlump/images/main/developer-portfolio-v2/OUlogo.jpg",
     iconBg: "#383E56",
     date: "Feb 2021 - May 2023",
     points: [
@@ -90,7 +90,7 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Oasis Advanced Engineering",
-    icon: "https://media.licdn.com/dms/image/C4E0BAQHoyGKJCyIWAA/company-logo_200_200/0/1530880609629?e=1701302400&v=beta&t=gYOqgMOBPSIu0MCPHK2rmABQJUfH6tAIEEUR9ul_1Cs",
+    icon: "https://raw.githubusercontent.com/NathanKlump/images/main/developer-portfolio-v2/oasis_advanced_engineering_logo.jpg",
     iconBg: "#383E56",
     date: "Summer 2023 Internship",
     points: [
@@ -103,7 +103,7 @@ const experiences = [
   {
     title: "Junior Application Developer",
     company_name: "University Technology Services",
-    icon: "https://media.licdn.com/dms/image/C4D0BAQFoG4SVQXfMXA/company-logo_200_200/0/1519855930252?e=1701302400&v=beta&t=y79Qv5gdTSbsATb96bVJhIARjuqKoaCQxNkHama6Kq4",
+    icon: "https://raw.githubusercontent.com/NathanKlump/images/main/developer-portfolio-v2/OUlogo.jpg",
     iconBg: "#E6DEDD",
     date: "Aug 2023 - Present",
     points: [
